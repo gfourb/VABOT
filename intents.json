@@ -1,0 +1,425 @@
+{
+  "intents": [
+    {
+      "tag": "onboarding",
+      "patterns": [
+        "How do I get started?",
+        "What is the onboarding process?",
+        "Guide me through the onboarding",
+        "Onboarding steps",
+        "What should I do to start?",
+        "Starting my job",
+        "How to begin my role?",
+        "Initial steps for new employees",
+        "Company onboarding process",
+        "New employee orientation",
+        "First steps for new hires",
+        "What to do first at my new job?",
+        "Joining the company",
+        "Orientation process",
+        "Employee onboarding guide",
+        "Steps to start at the company",
+        "Beginning the onboarding",
+        "How to start my new job?",
+        "New hire steps",
+        "What should I complete first?",
+        "Getting started at work",
+        "Onboarding instructions",
+        "New job onboarding",
+        "Start at the company",
+        "Onboarding guide"
+      ],
+      "responses": [
+        "Welcome to the team! To get started, you'll need to complete the following steps: \n1. Fill out your personal information form. \n2. Review the company handbook to understand our policies and procedures. \n3. Set up your work email and necessary tools (e.g., Slack, Salesforce, etc.). \n4. Meet with your supervisor to discuss your role and expectations. \n5. Complete any mandatory training sessions. \n6. Get acquainted with your team and department. \n7. Begin your assigned tasks and projects. \nIf you have any questions during the onboarding process, don't hesitate to ask your supervisor or HR for assistance."
+      ]
+    },
+    {
+      "tag": "canva",
+      "patterns": [
+        "How to use Canva?",
+        "Guide me on using Canva",
+        "What can I do with Canva?",
+        "Canva instructions",
+        "Creating designs with Canva",
+        "Canva design guide",
+        "Canva tutorial",
+        "Using Canva for beginners",
+        "Steps to use Canva",
+        "How do I create a design in Canva?",
+        "Tips for using Canva",
+        "Canva features overview",
+        "Canva tools and tips",
+        "How do I start with Canva?",
+        "Designing with Canva",
+        "Creating graphics in Canva",
+        "Making posters in Canva",
+        "How to use Canva templates?",
+        "Customizing designs in Canva",
+        "Adding elements in Canva",
+        "Canva for social media",
+        "Creating presentations with Canva",
+        "Using Canva like a pro",
+        "Getting started with Canva",
+        "Making visuals in Canva"
+      ],
+      "responses": [
+        "Using Canva is easy and intuitive. Follow these steps to get started: \n1. Sign up or log in to your Canva account at canva.com. \n2. On the homepage, click on the 'Create a design' button. \n3. Choose a template or select a custom size for your project. \n4. Use the drag-and-drop editor to add elements like text, images, icons, and shapes. You can upload your own images or use Canva's extensive library of free and premium elements. \n5. Customize your design by adjusting colors, fonts, and layouts. \n6. Once you're satisfied with your design, click the 'Download' button to save your project in various formats (e.g., PNG, JPG, PDF). \n7. You can also share your design directly from Canva via email or social media. \nCanva offers tutorials and resources to help you make the most of its features, so explore and have fun designing! \n\nIf you want to learn more in depth, check out this guide: [How to Use Canva: A Beginner's Guide](https://www.canva.com/learn/how-to-canva-beginners-guide/)."
+      ]
+    },
+    {
+      "tag": "slack",
+      "patterns": [
+        "How to use Slack?",
+        "Guide me on using Slack",
+        "What is Slack used for?",
+        "Slack instructions",
+        "Using Slack for communication",
+        "Slack tutorial",
+        "How to start with Slack?",
+        "Slack guide for teams",
+        "Collaborating on Slack",
+        "Creating channels in Slack",
+        "Sending messages in Slack",
+        "Slack tips and tricks",
+        "Slack features overview",
+        "Using Slack efficiently",
+        "Slack for beginners",
+        "Getting started with Slack",
+        "Setting up Slack",
+        "How to use Slack channels?",
+        "Direct messaging in Slack",
+        "Integrating tools with Slack",
+        "Slack notifications",
+        "Slack user guide",
+        "Slack for remote work",
+        "Managing projects with Slack",
+        "Best practices for Slack"
+      ],
+      "responses": [
+        "Slack is a messaging app for teams designed for communication and collaboration. Here's how to get started: \n1. Sign up or log in to your Slack account at slack.com. \n2. Create or join a workspace where your team collaborates. \n3. Create channels for different projects, topics, or teams by clicking on the '+' icon next to 'Channels'. \n4. Send messages within channels to communicate with your team. You can also send direct messages for one-on-one conversations. \n5. Use @mentions to get the attention of specific team members. \n6. Integrate other tools and services (e.g., Google Drive, Trello) to streamline your workflow. \n7. Customize your notifications to stay updated without being overwhelmed. \n8. Use the search bar to find past messages and files quickly. \nSlack is designed to improve team productivity and communication, so explore its features and make the most of it! \n\nIf you want to learn more in depth, check out this guide: [How to Use Slack: Your Quick Start Guide](https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide)."
+    ]    
+    },
+    {
+      "tag": "salesforce",
+      "patterns": [
+        "How to use Salesforce?",
+        "Guide me on using Salesforce",
+        "What can I do with Salesforce?",
+        "Salesforce instructions",
+        "Using Salesforce for CRM",
+        "Salesforce tutorial",
+        "Starting with Salesforce",
+        "Salesforce for beginners",
+        "Salesforce guide",
+        "How to manage leads in Salesforce?",
+        "Salesforce features overview",
+        "Tracking sales with Salesforce",
+        "Salesforce dashboard",
+        "Managing accounts in Salesforce",
+        "How to use Salesforce opportunities?",
+        "Customizing Salesforce",
+        "Salesforce tips and tricks",
+        "Salesforce user guide",
+        "Setting up Salesforce",
+        "Salesforce for sales management",
+        "Automating tasks with Salesforce",
+        "Salesforce best practices",
+        "Salesforce for customer data",
+        "Integrating tools with Salesforce",
+        "Getting started with Salesforce"
+      ],
+      "responses": [
+        "Salesforce is a powerful customer relationship management (CRM) tool designed to help you manage customer data, track sales, and automate marketing processes. Here's how to get started: \n1. Sign up or log in to your Salesforce account at salesforce.com. \n2. Familiarize yourself with the Salesforce dashboard and key features such as Leads, Accounts, Contacts, and Opportunities. \n3. Manage your leads by entering new leads into the system and tracking their progress through the sales funnel. \n4. Use the Accounts feature to store and manage information about companies you do business with. \n5. Track your sales opportunities by creating and updating opportunities, which represent potential sales. \n6. Customize Salesforce to fit your business needs by creating custom fields, objects, and workflows. \n7. Use reports and dashboards to gain insights into your sales performance and customer interactions. \n8. Integrate Salesforce with other tools and services you use, such as email, calendars, and marketing automation platforms. \nSalesforce offers a wide range of tutorials and resources to help you master its features and improve your sales processes. \n\nIf you want to learn more in depth, check out these workshops: [Salesforce Workshops for Small Businesses](https://www.salesforce.com/solutions/small-business-solutions/workshops/)."
+    ]    
+    },
+    {
+      "tag": "amazon_researcher",
+      "patterns": [
+        "What are the tasks of an Amazon researcher?",
+        "What does an Amazon researcher do?",
+        "Amazon researcher responsibilities",
+        "Amazon researcher tasks",
+        "Role of an Amazon researcher",
+        "Amazon product research",
+        "Amazon market analysis",
+        "Researching products on Amazon",
+        "Amazon competitor analysis",
+        "Amazon researcher guide",
+        "Amazon researcher job description",
+        "Duties of an Amazon researcher",
+        "Amazon researcher overview",
+        "Amazon research methods",
+        "Amazon data analysis",
+        "Optimizing product listings on Amazon",
+        "Amazon researcher workflow",
+        "Amazon research tools",
+        "Amazon researcher skills",
+        "Amazon market trends",
+        "Amazon product opportunities",
+        "Tracking competitors on Amazon",
+        "Amazon researcher strategies",
+        "Amazon researcher tips",
+        "Amazon researcher tasks list"
+      ],
+      "responses": [
+        "An Amazon researcher is responsible for analyzing market trends, researching product opportunities, tracking competitors, and optimizing product listings. Here are the key tasks: \n1. Conduct market analysis to identify trends and potential product opportunities. \n2. Use tools like Jungle Scout and Helium 10 to gather data and insights on products and competitors. \n3. Research and analyze competitors' products, pricing, and marketing strategies. \n4. Optimize product listings by improving titles, descriptions, keywords, and images to increase visibility and sales. \n5. Monitor and analyze sales performance and customer feedback to make data-driven decisions. \n6. Stay updated with Amazon's policies and best practices to ensure compliance. \n7. Collaborate with other teams, such as marketing and supply chain, to support product launches and promotions. \nAn Amazon researcher plays a crucial role in helping businesses succeed on the platform by providing valuable insights and recommendations."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hi there",
+        "Hello there",
+        "Hey there",
+        "Greetings",
+        "Hi, how are you?",
+        "Hello, how are you?",
+        "Hey, how's it going?",
+        "Good day",
+        "Hi! What's up?",
+        "Hello! How can I help?",
+        "Hey! How's everything?",
+        "Hi! How's it going?",
+        "Hello! What's new?",
+        "Hey! What's happening?",
+        "Good to see you",
+        "Nice to meet you",
+        "How's it going?",
+        "How are you?",
+        "How have you been?",
+        "How do you do?"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Hey! What can I do for you today?",
+        "Good day! How may I assist you?",
+        "Hello! How's everything going?",
+        "Hi! How's it going?",
+        "Hey there! How can I be of service?",
+        "Hello! What can I help you with today?",
+        "Hi! Need any assistance?",
+        "Hey! How can I support you today?"
+      ]
+    },
+    {
+      "tag": "notion",
+      "patterns": [
+        "How to use Notion?",
+        "Guide me on using Notion",
+        "What can I do with Notion?",
+        "Notion instructions",
+        "Organizing tasks in Notion",
+        "Notion tutorial",
+        "Using Notion for project management",
+        "Steps to use Notion",
+        "How do I create a page in Notion?",
+        "Tips for using Notion",
+        "Notion features overview",
+        "Notion tools and tips",
+        "How do I start with Notion?",
+        "Managing projects in Notion",
+        "Creating databases in Notion",
+        "How to use Notion templates?",
+        "Customizing pages in Notion",
+        "Adding elements in Notion",
+        "Notion for task management",
+        "Creating workspaces in Notion",
+        "Using Notion like a pro",
+        "Getting started with Notion",
+        "Organizing notes in Notion",
+        "Making lists in Notion"
+      ],
+      "responses": [
+        "Notion is an all-in-one workspace that lets you manage tasks, projects, and notes. To get started, sign up or log in to your Notion account at notion.so. Create a new page by clicking on 'New Page' and choose a template or start from scratch. Use blocks to add text, images, lists, and more. You can create databases to organize information and link between pages. Explore Notion's features and make your workspace work for you. For more, visit [Notion Guides](https://www.notion.so/guides)."
+      ]
+    },
+    {
+      "tag": "hubspot",
+      "patterns": [
+        "How to use HubSpot?",
+        "Guide me on using HubSpot",
+        "What can I do with HubSpot?",
+        "HubSpot instructions",
+        "Managing contacts in HubSpot",
+        "HubSpot tutorial",
+        "Using HubSpot for CRM",
+        "Steps to use HubSpot",
+        "How do I manage leads in HubSpot?",
+        "Tips for using HubSpot",
+        "HubSpot features overview",
+        "HubSpot tools and tips",
+        "How do I start with HubSpot?",
+        "Tracking sales in HubSpot",
+        "Creating deals in HubSpot",
+        "How to use HubSpot workflows?",
+        "Customizing HubSpot",
+        "Adding contacts in HubSpot",
+        "HubSpot for marketing",
+        "Creating campaigns in HubSpot",
+        "Using HubSpot like a pro",
+        "Getting started with HubSpot",
+        "Managing emails in HubSpot",
+        "Creating lists in HubSpot"
+      ],
+      "responses": [
+        "HubSpot is a powerful CRM tool that helps you manage your contacts, track sales activities, and automate marketing efforts. To get started, sign up or log in to your HubSpot account at hubspot.com. Import your contacts, create deals, and use HubSpot's marketing tools to nurture leads. You can customize HubSpot to fit your business needs by creating custom fields, workflows, and reports. For more information, visit [HubSpot Academy](https://academy.hubspot.com/)."
+      ]
+    },
+    {
+      "tag": "ms_teams",
+      "patterns": [
+        "How to use Microsoft Teams?",
+        "Guide me on using Microsoft Teams",
+        "What can I do with Microsoft Teams?",
+        "Microsoft Teams instructions",
+        "Collaborating on Microsoft Teams",
+        "Microsoft Teams tutorial",
+        "Using Teams for communication",
+        "Steps to use Microsoft Teams",
+        "How do I create a team in Microsoft Teams?",
+        "Tips for using Microsoft Teams",
+        "Microsoft Teams features overview",
+        "Microsoft Teams tools and tips",
+        "How do I start with Microsoft Teams?",
+        "Managing projects in Microsoft Teams",
+        "Creating channels in Microsoft Teams",
+        "How to use Microsoft Teams meetings?",
+        "Customizing Microsoft Teams",
+        "Adding members in Microsoft Teams",
+        "Microsoft Teams for collaboration",
+        "Creating tasks in Microsoft Teams",
+        "Using Microsoft Teams like a pro",
+        "Getting started with Microsoft Teams",
+        "Organizing meetings in Microsoft Teams",
+        "Managing files in Microsoft Teams"
+      ],
+      "responses": [
+        "Microsoft Teams is a collaboration tool that integrates with Office 365. To get started, sign up or log in to your Microsoft Teams account at teams.microsoft.com. Create or join a team, set up channels for different topics, and use chat, video calls, and file sharing to collaborate. You can schedule meetings, share files, and integrate with other Office 365 apps. Learn more at [Microsoft Teams Help](https://support.microsoft.com/teams)."
+      ]
+    },
+    {
+      "tag": "zoom",
+      "patterns": [
+        "How to use Zoom?",
+        "Guide me on using Zoom",
+        "What can I do with Zoom?",
+        "Zoom instructions",
+        "Scheduling meetings on Zoom",
+        "Zoom tutorial",
+        "Using Zoom for video conferencing",
+        "Steps to use Zoom",
+        "How do I create a meeting in Zoom?",
+        "Tips for using Zoom",
+        "Zoom features overview",
+        "Zoom tools and tips",
+        "How do I start with Zoom?",
+        "Managing webinars on Zoom",
+        "Creating recurring meetings in Zoom",
+        "How to use Zoom breakout rooms?",
+        "Customizing Zoom settings",
+        "Adding participants in Zoom",
+        "Zoom for remote work",
+        "Creating events in Zoom",
+        "Using Zoom like a pro",
+        "Getting started with Zoom",
+        "Organizing webinars in Zoom",
+        "Managing participants in Zoom"
+      ],
+      "responses": [
+        "Zoom is a video conferencing tool that allows you to host and join online meetings. To get started, sign up or log in to your Zoom account at zoom.us. Schedule a meeting by clicking on 'Schedule a Meeting' and filling in the details. You can invite participants by sending them the meeting link or ID. During the meeting, you can share your screen, use breakout rooms, and record the session. For more information, visit [Zoom Help Center](https://support.zoom.us/hc/en-us)."
+      ]
+    },
+    {
+      "tag": "trello",
+      "patterns": [
+        "How to use Trello?",
+        "Guide me on using Trello",
+        "What can I do with Trello?",
+        "Trello instructions",
+        "Managing projects on Trello",
+        "Trello tutorial",
+        "Using Trello for task management",
+        "Steps to use Trello",
+        "How do I create a board in Trello?",
+        "Tips for using Trello",
+        "Trello features overview",
+        "Trello tools and tips",
+        "How do I start with Trello?",
+        "Tracking progress on Trello",
+        "Creating lists in Trello",
+        "How to use Trello cards?",
+        "Customizing Trello boards",
+        "Adding members in Trello",
+        "Trello for project management",
+        "Creating tasks in Trello",
+        "Using Trello like a pro",
+        "Getting started with Trello",
+        "Organizing tasks in Trello",
+        "Managing deadlines in Trello"
+      ],
+      "responses": [
+        "Trello is a visual project management tool that uses boards, lists, and cards to help you organize tasks. To get started, sign up or log in to your Trello account at trello.com. Create a new board, add lists for different stages of your project, and create cards for tasks. You can assign tasks to team members, set due dates, and use labels to categorize tasks. For more, visit [Trello Guide](https://trello.com/guide)."
+      ]
+    },
+    {
+      "tag": "tools",
+      "patterns": [
+        "What tools do virtual assistants use?",
+        "List of tools for virtual assistants",
+        "Tools for VAs",
+        "What software should a virtual assistant know?",
+        "Common tools for virtual assistants",
+        "Essential tools for VAs",
+        "Important tools for virtual assistants",
+        "What are the best tools for virtual assistants?",
+        "Recommended tools for virtual assistants",
+        "Can you tell me about tools used by virtual assistants?"
+      ],
+      "responses": [
+        "Here are popular tools for Virtual Assistants:\n1. Notion\n2. HubSpot\n3. Microsoft Teams\n4. Zoom\n5. Trello\n6. Google Workspace (G Suite)\n7. Slack\n8. Canva\n9. Salesforce"
+      ]
+    },
+    {
+      "tag": "g_suite",
+      "patterns": [
+        "How to use Google Drive?",
+        "Guide me on using Google Drive",
+        "What can I do with Google Drive?",
+        "Google Drive instructions",
+        "Organizing files in Google Drive",
+        "Google Drive tutorial",
+        "Using Google Drive for file storage",
+        "Steps to use Google Drive",
+        "How do I share files in Google Drive?",
+        "Tips for using Google Drive",
+        "Google Drive features overview",
+        "Google Drive tools and tips",
+        "How do I start with Google Drive?",
+        "Creating folders in Google Drive",
+        "Managing files in Google Drive",
+        "How to use Google Drive offline?",
+        "Customizing Google Drive settings",
+        "Adding collaborators in Google Drive",
+        "Google Drive for team collaboration",
+        "Creating documents in Google Docs",
+        "Using Google Sheets for data analysis",
+        "Scheduling events with Google Calendar",
+        "Using Google Forms for surveys",
+        "Organizing emails with Gmail",
+        "Collaborating with Google Meet",
+        "Managing tasks with Google Keep"
+      ],
+      "responses": [
+        "Google Workspace (G Suite) is a collection of cloud-based productivity and collaboration tools developed by Google. For more information, visit [Google Workspace Learning Center](https://support.google.com/a/users/?hl=en#topic=11499463)."
+      ]
+    }
+    
+  ]
+}
