@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "intents": [
     {
@@ -423,3 +424,217 @@
     
   ]
 }
+=======
+{
+  "intents": [
+    {
+      "tag": "onboarding",
+      "patterns": [
+        "How do I get started?",
+        "What is the onboarding process?",
+        "Guide me through the onboarding",
+        "Onboarding steps",
+        "What should I do to start?",
+        "Starting my job",
+        "How to begin my role?",
+        "Initial steps for new employees",
+        "Company onboarding process",
+        "New employee orientation",
+        "First steps for new hires",
+        "What to do first at my new job?",
+        "Joining the company",
+        "Orientation process",
+        "Employee onboarding guide",
+        "Steps to start at the company",
+        "Beginning the onboarding",
+        "How to start my new job?",
+        "New hire steps",
+        "What should I complete first?",
+        "Getting started at work",
+        "Onboarding instructions",
+        "New job onboarding",
+        "Start at the company",
+        "Onboarding guide"
+      ],
+      "responses": [
+        "Welcome to the team! To get started, you'll need to complete the following steps: \n1. Fill out your personal information form. \n2. Review the company handbook to understand our policies and procedures. \n3. Set up your work email and necessary tools (e.g., Slack, Salesforce, etc.). \n4. Meet with your supervisor to discuss your role and expectations. \n5. Complete any mandatory training sessions. \n6. Get acquainted with your team and department. \n7. Begin your assigned tasks and projects. \nIf you have any questions during the onboarding process, don't hesitate to ask your supervisor or HR for assistance."
+      ]
+    },
+    {
+      "tag": "canva",
+      "patterns": [
+        "How to use Canva?",
+        "Guide me on using Canva",
+        "What can I do with Canva?",
+        "Canva instructions",
+        "Creating designs with Canva",
+        "Canva design guide",
+        "Canva tutorial",
+        "Using Canva for beginners",
+        "Steps to use Canva",
+        "How do I create a design in Canva?",
+        "Tips for using Canva",
+        "Canva features overview",
+        "Canva tools and tips",
+        "How do I start with Canva?",
+        "Designing with Canva",
+        "Creating graphics in Canva",
+        "Making posters in Canva",
+        "How to use Canva templates?",
+        "Customizing designs in Canva",
+        "Adding elements in Canva",
+        "Canva for social media",
+        "Creating presentations with Canva",
+        "Using Canva like a pro",
+        "Getting started with Canva",
+        "Making visuals in Canva"
+      ],
+      "responses": [
+        "Using Canva is easy and intuitive. Follow these steps to get started: \n1. Sign up or log in to your Canva account at canva.com. \n2. On the homepage, click on the 'Create a design' button. \n3. Choose a template or select a custom size for your project. \n4. Use the drag-and-drop editor to add elements like text, images, icons, and shapes. You can upload your own images or use Canva's extensive library of free and premium elements. \n5. Customize your design by adjusting colors, fonts, and layouts. \n6. Once you're satisfied with your design, click the 'Download' button to save your project in various formats (e.g., PNG, JPG, PDF). \n7. You can also share your design directly from Canva via email or social media. \nCanva offers tutorials and resources to help you make the most of its features, so explore and have fun designing!"
+      ]
+    },
+    {
+      "tag": "slack",
+      "patterns": [
+        "How to use Slack?",
+        "Guide me on using Slack",
+        "What is Slack used for?",
+        "Slack instructions",
+        "Using Slack for communication",
+        "Slack tutorial",
+        "How to start with Slack?",
+        "Slack guide for teams",
+        "Collaborating on Slack",
+        "Creating channels in Slack",
+        "Sending messages in Slack",
+        "Slack tips and tricks",
+        "Slack features overview",
+        "Using Slack efficiently",
+        "Slack for beginners",
+        "Getting started with Slack",
+        "Setting up Slack",
+        "How to use Slack channels?",
+        "Direct messaging in Slack",
+        "Integrating tools with Slack",
+        "Slack notifications",
+        "Slack user guide",
+        "Slack for remote work",
+        "Managing projects with Slack",
+        "Best practices for Slack"
+      ],
+      "responses": [
+        "Slack is a messaging app for teams designed for communication and collaboration. Here's how to get started: \n1. Sign up or log in to your Slack account at slack.com. \n2. Create or join a workspace where your team collaborates. \n3. Create channels for different projects, topics, or teams by clicking on the '+' icon next to 'Channels'. \n4. Send messages within channels to communicate with your team. You can also send direct messages for one-on-one conversations. \n5. Use @mentions to get the attention of specific team members. \n6. Integrate other tools and services (e.g., Google Drive, Trello) to streamline your workflow. \n7. Customize your notifications to stay updated without being overwhelmed. \n8. Use the search bar to find past messages and files quickly. \nSlack is designed to improve team productivity and communication, so explore its features and make the most of it!"
+      ]
+    },
+    {
+      "tag": "salesforce",
+      "patterns": [
+        "How to use Salesforce?",
+        "Guide me on using Salesforce",
+        "What can I do with Salesforce?",
+        "Salesforce instructions",
+        "Using Salesforce for CRM",
+        "Salesforce tutorial",
+        "Starting with Salesforce",
+        "Salesforce for beginners",
+        "Salesforce guide",
+        "How to manage leads in Salesforce?",
+        "Salesforce features overview",
+        "Tracking sales with Salesforce",
+        "Salesforce dashboard",
+        "Managing accounts in Salesforce",
+        "How to use Salesforce opportunities?",
+        "Customizing Salesforce",
+        "Salesforce tips and tricks",
+        "Salesforce user guide",
+        "Setting up Salesforce",
+        "Salesforce for sales management",
+        "Automating tasks with Salesforce",
+        "Salesforce best practices",
+        "Salesforce for customer data",
+        "Integrating tools with Salesforce",
+        "Getting started with Salesforce"
+      ],
+      "responses": [
+        "Salesforce is a powerful customer relationship management (CRM) tool designed to help you manage customer data, track sales, and automate marketing processes. Here's how to get started: \n1. Sign up or log in to your Salesforce account at salesforce.com. \n2. Familiarize yourself with the Salesforce dashboard and key features such as Leads, Accounts, Contacts, and Opportunities. \n3. Manage your leads by entering new leads into the system and tracking their progress through the sales funnel. \n4. Use the Accounts feature to store and manage information about companies you do business with. \n5. Track your sales opportunities by creating and updating opportunities, which represent potential sales. \n6. Customize Salesforce to fit your business needs by creating custom fields, objects, and workflows. \n7. Use reports and dashboards to gain insights into your sales performance and customer interactions. \n8. Integrate Salesforce with other tools and services you use, such as email, calendars, and marketing automation platforms. \nSalesforce offers a wide range of tutorials and resources to help you master its features and improve your sales processes."
+      ]
+    },
+    {
+      "tag": "amazon_researcher",
+      "patterns": [
+        "What are the tasks of an Amazon researcher?",
+        "What does an Amazon researcher do?",
+        "Amazon researcher responsibilities",
+        "Amazon researcher tasks",
+        "Role of an Amazon researcher",
+        "Amazon product research",
+        "Amazon market analysis",
+        "Researching products on Amazon",
+        "Amazon competitor analysis",
+        "Amazon researcher guide",
+        "Amazon researcher job description",
+        "Duties of an Amazon researcher",
+        "Amazon researcher overview",
+        "Amazon research methods",
+        "Amazon data analysis",
+        "Optimizing product listings on Amazon",
+        "Amazon researcher workflow",
+        "Amazon research tools",
+        "Amazon researcher skills",
+        "Amazon market trends",
+        "Amazon product opportunities",
+        "Tracking competitors on Amazon",
+        "Amazon researcher strategies",
+        "Amazon researcher tips",
+        "Amazon researcher tasks list"
+      ],
+      "responses": [
+        "An Amazon researcher is responsible for analyzing market trends, researching product opportunities, tracking competitors, and optimizing product listings. Here are the key tasks: \n1. Conduct market analysis to identify trends and potential product opportunities. \n2. Use tools like Jungle Scout and Helium 10 to gather data and insights on products and competitors. \n3. Research and analyze competitors' products, pricing, and marketing strategies. \n4. Optimize product listings by improving titles, descriptions, keywords, and images to increase visibility and sales. \n5. Monitor and analyze sales performance and customer feedback to make data-driven decisions. \n6. Stay updated with Amazon's policies and best practices to ensure compliance. \n7. Collaborate with other teams, such as marketing and supply chain, to support product launches and promotions. \nAn Amazon researcher plays a crucial role in helping businesses succeed on the platform by providing valuable insights and recommendations."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hi there",
+        "Hello there",
+        "Hey there",
+        "Greetings",
+        "Hi, how are you?",
+        "Hello, how are you?",
+        "Hey, how's it going?",
+        "Good day",
+        "Hi! What's up?",
+        "Hello! How can I help?",
+        "Hey! How's everything?",
+        "Hi! How's it going?",
+        "Hello! What's new?",
+        "Hey! What's happening?",
+        "Good to see you",
+        "Nice to meet you",
+        "How's it going?",
+        "How are you?",
+        "How have you been?",
+        "How do you do?"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Hey! What can I do for you today?",
+        "Good day! How may I assist you?",
+        "Hello! How's everything going?",
+        "Hi! How's it going?",
+        "Hey there! How can I be of service?",
+        "Hello! What can I help you with today?",
+        "Hi! Need any assistance?",
+        "Hey! How can I support you today?"
+      ]
+    }
+  ]
+}
+>>>>>>> e3b9e36c8cb0e9a28c13d7bee5d9e1fd078a6205
