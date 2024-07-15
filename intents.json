@@ -419,6 +419,49 @@
       "responses": [
         "Google Workspace (G Suite) is a collection of cloud-based productivity and collaboration tools developed by Google. For more information, visit [Google Workspace Learning Center](https://support.google.com/a/users/?hl=en#topic=11499463)."
       ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thank you very much",
+        "Thanks a lot",
+        "Thank you for your help",
+        "I appreciate it",
+        "Thanks for the assistance",
+        "Thanks for your support",
+        "ty"
+      ],
+      "responses": [
+        "You're welcome! If you have any more questions, feel free to ask.",
+        "Glad I could help! Let me know if there's anything else you need.",
+        "You're welcome! I'm here if you need any further assistance.",
+        "No problem! If you have any other questions, don't hesitate to ask."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "good bye",
+        "Bye",
+        "See you later",
+        "Take care",
+        "Farewell",
+        "Have a good day",
+        "Catch you later",
+        "Talk to you later",
+        "See you soon",
+        "Good night",
+        "Have a nice day"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care!",
+        "Farewell! If you need anything else, just let me know.",
+        "Have a good day! Talk to you later!"
+      ]
     }
     
   ]
