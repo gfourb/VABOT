@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chatbox">
+            <div class="chatbox-header">
+                <strong>Chat support</strong>
+                <p>Hello! I am VAbot. I will be training you as a virtual assistant today. How can I help?</p>
+            </div>
+            <div class="chatbox-body" id="chatbox-body"></div>
+            <div class="chatbox-footer">
+                <input type="text" id="message" placeholder="Write a message..." onkeypress="checkEnter(event)">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function sendMessage() {
+            var message = document.getElementById("message").value;
+            if (message.trim() === "") return;
+            var chatboxBody = document.getElementById("chatbox-body");
+            var userMessage = `<div class="message user"><p>${message}</p></div>`;
+            chatboxBody.innerHTML += userMessage;
+
+            fetch("/get_response", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                },
+                body: `message=${encodeURIComponent(message)}`
+            })
+            .then(response => response.json())
+            .then(data => {
+                var botMessage = `<div class="message bot"><p>${formatResponse(data.response)}</p></div>`;
+                chatboxBody.innerHTML += botMessage;
+                document.getElementById("message").value = "";
+                chatboxBody.scrollTop = chatboxBody.scrollHeight;
+            })
+            .catch(error => {
+                console.error("Error:", error);
+            });
+        }
+
+        function formatResponse(response) {
+            response = response.replace(/(\d+)\.\s/g, '<br>$1. ');
+
+            const urlMappings = {
+                "https://workspace.google.com/intl/en_ph/training/": "Google Workspace Learning Center",
+                "https://www.canva.com/learn/how-to-canva-beginners-guide/": "Canva guide",
+                "https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide": "Slack guide",
+                "https://www.salesforce.com/solutions/small-business-solutions/workshops/": "Salesforce workshops",
+                "https://www.notion.so/guides": "Notion guide",
+                "https://academy.hubspot.com/": "HubSpot Academy",
+                "https://support.microsoft.com/teams": "Microsoft Teams Help",
+                "https://support.zoom.us/hc/en-us": "Zoom Help Center",
+                "https://trello.com/guide": "Trello guide"
+            };
+
+            for (const [url, text] of Object.entries(urlMappings)) {
+                response = response.replace(new RegExp(url, 'g'), `<a href="${url}" target="_blank">${text}</a>`);
+            }
+
+            return response;
+        }
+
+        function checkEnter(event) {
+            if (event.key === "Enter") {
+                sendMessage();
+            }
+        }
+
+        function sendMessageTag(tag) {
+            console.log("Sending tag:", tag);  // Debugging log
+            document.getElementById("message").value = tag.replace(/_/g, ' ');
+            sendMessage();
+        }
+    </script>
+</body>
+</html>

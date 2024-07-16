@@ -3,6 +3,7 @@
     {
       "tag": "onboarding",
       "patterns": [
+        "onboarding",
         "How do I get started?",
         "What is the onboarding process?",
         "Guide me through the onboarding",
@@ -36,6 +37,7 @@
     {
       "tag": "canva",
       "patterns": [
+        "canva",
         "How to use Canva?",
         "Guide me on using Canva",
         "What can I do with Canva?",
@@ -69,6 +71,7 @@
     {
       "tag": "slack",
       "patterns": [
+        "slack",
         "How to use Slack?",
         "Guide me on using Slack",
         "What is Slack used for?",
@@ -102,6 +105,7 @@
     {
       "tag": "salesforce",
       "patterns": [
+        "salesforce",
         "How to use Salesforce?",
         "Guide me on using Salesforce",
         "What can I do with Salesforce?",
@@ -135,6 +139,8 @@
     {
       "tag": "amazon_researcher",
       "patterns": [
+        "amazon_researcher",
+        "amazon researcher",
         "What are the tasks of an Amazon researcher?",
         "What does an Amazon researcher do?",
         "Amazon researcher responsibilities",
@@ -211,6 +217,7 @@
     {
       "tag": "notion",
       "patterns": [
+        "notion",
         "How to use Notion?",
         "Guide me on using Notion",
         "What can I do with Notion?",
@@ -243,6 +250,7 @@
     {
       "tag": "hubspot",
       "patterns": [
+        "hubspot",
         "How to use HubSpot?",
         "Guide me on using HubSpot",
         "What can I do with HubSpot?",
@@ -275,6 +283,9 @@
     {
       "tag": "ms_teams",
       "patterns": [
+        "ms_teams",
+        "ms teams",
+        "microsoft teams",
         "How to use Microsoft Teams?",
         "Guide me on using Microsoft Teams",
         "What can I do with Microsoft Teams?",
@@ -307,6 +318,7 @@
     {
       "tag": "zoom",
       "patterns": [
+        "zoom",
         "How to use Zoom?",
         "Guide me on using Zoom",
         "What can I do with Zoom?",
@@ -339,6 +351,7 @@
     {
       "tag": "trello",
       "patterns": [
+        "trello",
         "How to use Trello?",
         "Guide me on using Trello",
         "What can I do with Trello?",
@@ -371,6 +384,7 @@
     {
       "tag": "tools",
       "patterns": [
+        "tools",
         "What tools do virtual assistants use?",
         "List of tools for virtual assistants",
         "Tools for VAs",
@@ -389,6 +403,9 @@
     {
       "tag": "g_suite",
       "patterns": [
+        "g_suite",
+        "google suite",
+        "g suite",
         "How to use Google Drive?",
         "Guide me on using Google Drive",
         "What can I do with Google Drive?",
@@ -417,7 +434,7 @@
         "Managing tasks with Google Keep"
       ],
       "responses": [
-        "Google Workspace (G Suite) is a collection of cloud-based productivity and collaboration tools developed by Google. For more information, visit [Google Workspace Learning Center](https://support.google.com/a/users/?hl=en#topic=11499463)."
+        "Google Workspace (G Suite) is a collection of cloud-based productivity and collaboration tools developed by Google. For more information, visit [Google Workspace Learning Center](https://workspace.google.com/intl/en_ph/training/)."
       ]
     },
     {
