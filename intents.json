@@ -35,6 +35,22 @@
       ]
     },
     {
+      "tag": "faqs",
+      "patterns": [
+        "faqs",
+        "FAQ",
+        "Frequently Asked Questions",
+        "Help",
+        "Questions",
+        "Common questions",
+        "What can I ask?",
+        "What are the FAQs?"
+      ],
+      "responses": [
+        "Here are some FAQs you can click on: <br><a href=\"#\" onclick=\"sendMessageTag('what_is_a_virtual_assistant')\">What is a Virtual Assistant?</a><br><a href=\"#\" onclick=\"sendMessageTag('services_provided')\">What services do Virtual Assistants at Groww Virtual Agency provide?</a><br><a href=\"#\" onclick=\"sendMessageTag('benefits_of_hiring_va')\">How can a Virtual Assistant from Groww Virtual Agency benefit my business?</a><br><a href=\"#\" onclick=\"sendMessageTag('hiring_process')\">How do I hire a Virtual Assistant from Groww Virtual Agency?</a><br><a href=\"#\" onclick=\"sendMessageTag('va_qualification')\">Are your Virtual Assistants experienced and qualified?</a><br><a href=\"#\" onclick=\"sendMessageTag('communication_with_va')\">How do I communicate with my Virtual Assistant?</a><br><a href=\"#\" onclick=\"sendMessageTag('va_cost')\">What are the costs associated with hiring a Virtual Assistant?</a><br><a href=\"#\" onclick=\"sendMessageTag('short_term_va')\">Can I hire a Virtual Assistant on a short-term basis?</a><br><a href=\"#\" onclick=\"sendMessageTag('unsatisfied_va')\">What if I am not satisfied with my Virtual Assistant?</a><br><a href=\"#\" onclick=\"sendMessageTag('data_security')\">How do you ensure data security and confidentiality?</a><br><a href=\"#\" onclick=\"sendMessageTag('different_time_zones')\">Can Virtual Assistants work in different time zones?</a><br><a href=\"#\" onclick=\"sendMessageTag('tools_software')\">What tools and software do your Virtual Assistants use?</a><br><a href=\"#\" onclick=\"sendMessageTag('get_started_va_services')\">How do I get started with your Virtual Assistant services?</a>"
+      ]
+    },
+    {
       "tag": "canva",
       "patterns": [
         "canva",
@@ -397,7 +413,7 @@
         "Can you tell me about tools used by virtual assistants?"
       ],
       "responses": [
-        "Here are popular tools for Virtual Assistants:\n1. Notion\n2. HubSpot\n3. Microsoft Teams\n4. Zoom\n5. Trello\n6. Google Workspace (G Suite)\n7. Slack\n8. Canva\n9. Salesforce"
+        "Here are some tools used by our Virtual Assistants: <br><a href=\"#\" onclick=\"sendMessageTag('notion')\">Notion</a><br><a href=\"#\" onclick=\"sendMessageTag('hubspot')\">HubSpot</a><br><a href=\"#\" onclick=\"sendMessageTag('ms_teams')\">Microsoft Teams</a><br><a href=\"#\" onclick=\"sendMessageTag('zoom')\">Zoom</a><br><a href=\"#\" onclick=\"sendMessageTag('trello')\">Trello</a><br><a href=\"#\" onclick=\"sendMessageTag('g_suite')\">Google Workspace</a><br><a href=\"#\" onclick=\"sendMessageTag('slack')\">Slack</a><br><a href=\"#\" onclick=\"sendMessageTag('canva')\">Canva</a><br><a href=\"#\" onclick=\"sendMessageTag('salesforce')\">Salesforce</a><br><a href=\"#\" onclick=\"sendMessageTag('hubstaff')\">Hubstaff</a><br><a href=\"#\" onclick=\"sendMessageTag('follow_up_boss')\">Follow Up Boss</a><br><a href=\"#\" onclick=\"sendMessageTag('runwayml')\">RunwayML</a>"
       ]
     },
     {
@@ -479,7 +495,397 @@
         "Farewell! If you need anything else, just let me know.",
         "Have a good day! Talk to you later!"
       ]
+    },
+    {
+      "tag": "hubstaff",
+      "patterns": [
+        "hubstaff",
+        "How to use Hubstaff?",
+        "Guide me on using Hubstaff",
+        "What can I do with Hubstaff?",
+        "Hubstaff instructions",
+        "Tracking time with Hubstaff",
+        "Hubstaff tutorial",
+        "Using Hubstaff for time management",
+        "Steps to use Hubstaff",
+        "How do I track time in Hubstaff?",
+        "Tips for using Hubstaff",
+        "Hubstaff features overview",
+        "Hubstaff tools and tips",
+        "How do I start with Hubstaff?",
+        "Managing projects in Hubstaff",
+        "Creating tasks in Hubstaff",
+        "How to use Hubstaff reports?",
+        "Customizing Hubstaff",
+        "Adding members in Hubstaff",
+        "Hubstaff for project management",
+        "Tracking activities in Hubstaff",
+        "Using Hubstaff like a pro",
+        "Getting started with Hubstaff",
+        "Organizing tasks in Hubstaff",
+        "Managing time in Hubstaff"
+      ],
+      "responses": [
+        "Hubstaff is a time tracking tool designed to help teams track work hours and manage projects. To get started, sign up or log in to your Hubstaff account at hubstaff.com. Create a project and add tasks for your team. Use the time tracker to start tracking work hours for specific tasks. You can also monitor activity levels and take screenshots. Hubstaff provides detailed reports to help you analyze productivity. For more information, visit [Hubstaff Guide](https://support.hubstaff.com/)."
+      ]
+    },
+    {
+      "tag": "follow_up_boss",
+      "patterns": [
+        "follow_up_boss",
+        "follow up boss",
+        "How to use Follow Up Boss?",
+        "Guide me on using Follow Up Boss",
+        "What can I do with Follow Up Boss?",
+        "Follow Up Boss instructions",
+        "Managing leads with Follow Up Boss",
+        "Follow Up Boss tutorial",
+        "Using Follow Up Boss for CRM",
+        "Steps to use Follow Up Boss",
+        "How do I track leads in Follow Up Boss?",
+        "Tips for using Follow Up Boss",
+        "Follow Up Boss features overview",
+        "Follow Up Boss tools and tips",
+        "How do I start with Follow Up Boss?",
+        "Managing contacts in Follow Up Boss",
+        "Creating tasks in Follow Up Boss",
+        "How to use Follow Up Boss workflows?",
+        "Customizing Follow Up Boss",
+        "Adding leads in Follow Up Boss",
+        "Follow Up Boss for sales management",
+        "Tracking activities in Follow Up Boss",
+        "Using Follow Up Boss like a pro",
+        "Getting started with Follow Up Boss",
+        "Organizing tasks in Follow Up Boss",
+        "Managing sales in Follow Up Boss"
+      ],
+      "responses": [
+        "Follow Up Boss is a CRM tool designed to help real estate teams manage leads and track sales activities. To get started, sign up or log in to your Follow Up Boss account at followupboss.com. Import your contacts and leads, create tasks and set reminders for follow-ups. Use the pipeline to track the progress of your leads and close deals. Customize your workflows to automate repetitive tasks. For more information, visit [Follow Up Boss Guide](https://help.followupboss.com/)."
+      ]
+    },
+    {
+      "tag": "runwayml",
+      "patterns": [
+        "runwayml",
+        "How to use RunwayML?",
+        "Guide me on using RunwayML",
+        "What can I do with RunwayML?",
+        "RunwayML instructions",
+        "Creating models with RunwayML",
+        "RunwayML tutorial",
+        "Using RunwayML for machine learning",
+        "Steps to use RunwayML",
+        "How do I create models in RunwayML?",
+        "Tips for using RunwayML",
+        "RunwayML features overview",
+        "RunwayML tools and tips",
+        "How do I start with RunwayML?",
+        "Training models in RunwayML",
+        "Using RunwayML for AI projects",
+        "Customizing RunwayML",
+        "Adding datasets in RunwayML",
+        "RunwayML for creative projects",
+        "Using pre-trained models in RunwayML",
+        "Using RunwayML like a pro",
+        "Getting started with RunwayML",
+        "Organizing projects in RunwayML",
+        "Managing machine learning models in RunwayML"
+      ],
+      "responses": [
+        "RunwayML is a platform that makes machine learning accessible for creative projects. To get started, sign up or log in to your RunwayML account at runwayml.com. Create a new project, add datasets, and select from pre-trained models or train your own. Use the interface to experiment with different models and generate outputs. RunwayML integrates with various creative tools like Photoshop and Unity. For more information, visit [RunwayML Guide](https://learn.runwayml.com/)."
+      ]
+    },
+    {
+      "tag": "what_is_a_virtual_assistant",
+      "patterns": [
+        "What is a Virtual Assistant?",
+        "What does a VA do?",
+        "Explain Virtual Assistant",
+        "Define Virtual Assistant",
+        "What are the duties of a Virtual Assistant?",
+        "What is the role of a Virtual Assistant?",
+        "What services do Virtual Assistants offer?",
+        "What does a Virtual Assistant provide?",
+        "Who is a Virtual Assistant?",
+        "Describe a Virtual Assistant",
+        "what_is_a_virtual_assistant",
+        "what is a virtual assistant",
+        "what_is_a_VA",
+        "what is a VA",
+        "what is a Virtual Assistant",
+        "what_is_a_virtual assistant"
+      ],
+      "responses": [
+        "A Virtual Assistant (VA) is a remote professional who provides various administrative, technical, or creative assistance to clients from a home office or a remote location."
+      ]
+    },
+    {
+      "tag": "services_provided",
+      "patterns": [
+        "What services do Virtual Assistants at Groww Virtual Agency provide?",
+        "What can a VA from Groww Virtual Agency do?",
+        "Services of VAs at Groww Virtual Agency",
+        "What tasks can Groww Virtual Agency VAs handle?",
+        "Types of services offered by Groww Virtual Agency VAs",
+        "Capabilities of VAs at Groww Virtual Agency",
+        "What do Groww Virtual Agency VAs specialize in?",
+        "List the services provided by Groww Virtual Agency VAs",
+        "What support can Groww Virtual Agency VAs offer?",
+        "What assistance do Groww Virtual Agency VAs provide?",
+        "services_provided",
+        "services provided",
+        "What services do VAs at Groww Virtual Agency provide?",
+        "What services do Virtual Assistants at Groww Virtual Agency provide?",
+        "What can a VA from Groww Virtual Agency do?",
+        "What can a Virtual Assistant from Groww Virtual Agency do?"
+      ],
+      "responses": [
+        "Groww Virtual Agency offers a wide range of services, including executive assistants, front-end developers, back-end developers, Hubspot developers, social media managers, video editors, and bi-lingual customer service VAs."
+      ]
+    },
+    {
+      "tag": "benefits_of_hiring_va",
+      "patterns": [
+        "How can a Virtual Assistant from Groww Virtual Agency benefit my business?",
+        "What are the advantages of hiring a VA from Groww Virtual Agency?",
+        "Benefits of a VA from Groww Virtual Agency",
+        "Why should I hire a VA from Groww Virtual Agency?",
+        "How can Groww Virtual Agency VAs help my business?",
+        "What are the perks of hiring a VA from Groww Virtual Agency?",
+        "Advantages of using a VA from Groww Virtual Agency",
+        "How does a VA from Groww Virtual Agency add value?",
+        "What are the benefits of having a VA from Groww Virtual Agency?",
+        "How will a VA from Groww Virtual Agency improve my business?",
+        "benefits_of_hiring_va",
+        "benefits of hiring va",
+        "benefits_of_hiring_Virtual Assistant",
+        "benefits of hiring Virtual Assistant",
+        "How can a VA from Groww Virtual Agency benefit my business?",
+        "How can a Virtual Assistant from Groww Virtual Agency benefit my business?"
+      ],
+      "responses": [
+        "Hiring a VA from Groww Virtual Agency can save you time and money by handling routine tasks, allowing you to focus on core business activities. Our VAs offer specialized skills and expertise that may not be available in-house."
+      ]
+    },
+    {
+      "tag": "hiring_process",
+      "patterns": [
+        "How do I hire a Virtual Assistant from Groww Virtual Agency?",
+        "What is the process to hire a VA from Groww Virtual Agency?",
+        "How can I get a VA from Groww Virtual Agency?",
+        "Steps to hire a VA from Groww Virtual Agency",
+        "Procedure to hire a Virtual Assistant from Groww Virtual Agency",
+        "How to employ a VA from Groww Virtual Agency?",
+        "Process of hiring a VA from Groww Virtual Agency",
+        "How to get a Virtual Assistant from Groww Virtual Agency?",
+        "How can I recruit a VA from Groww Virtual Agency?",
+        "How to sign up for a VA from Groww Virtual Agency?",
+        "hiring_process",
+        "hiring process",
+        "How do I hire a VA from Groww Virtual Agency?",
+        "How do I hire a Virtual Assistant from Groww Virtual Agency?"
+      ],
+      "responses": [
+        "To hire a VA from Groww Virtual Agency, you can contact us through our website or call us directly. We will discuss your specific needs and match you with a VA who has the appropriate skills and experience."
+      ]
+    },
+    {
+      "tag": "va_qualification",
+      "patterns": [
+        "Are your Virtual Assistants experienced and qualified?",
+        "How qualified are your VAs?",
+        "Experience of Groww Virtual Agency VAs",
+        "Qualifications of Groww Virtual Agency VAs",
+        "Are Groww Virtual Agency VAs experienced?",
+        "Do Groww Virtual Agency VAs have relevant qualifications?",
+        "Skills of Groww Virtual Agency VAs",
+        "Competency of Groww Virtual Agency VAs",
+        "Expertise of Groww Virtual Agency VAs",
+        "Are Groww Virtual Agency VAs well-trained?",
+        "va_qualification",
+        "va qualification",
+        "Are your VAs experienced and qualified?",
+        "Are your Virtual Assistants experienced and qualified?"
+      ],
+      "responses": [
+        "Yes, all our VAs go through a rigorous screening and vetting process. They are highly skilled professionals with relevant experience in their respective fields."
+      ]
+    },
+    {
+      "tag": "communication_with_va",
+      "patterns": [
+        "How do I communicate with my Virtual Assistant?",
+        "Ways to communicate with my VA",
+        "How to contact my Virtual Assistant?",
+        "Communication methods with Groww Virtual Agency VAs",
+        "How can I reach my Virtual Assistant?",
+        "How to talk to my Virtual Assistant?",
+        "Channels to communicate with my VA",
+        "Best way to communicate with my Virtual Assistant",
+        "Contacting Groww Virtual Agency VAs",
+        "How to stay in touch with my Virtual Assistant?",
+        "communication_with_va",
+        "communication with va",
+        "How do I communicate with my VA?",
+        "How do I communicate with my Virtual Assistant?"
+      ],
+      "responses": [
+        "You can communicate with your VA through various channels such as email, phone, video calls, and instant messaging platforms like Slack or Microsoft Teams."
+      ]
+    },
+    {
+      "tag": "va_cost",
+      "patterns": [
+        "What are the costs associated with hiring a Virtual Assistant?",
+        "How much does a VA cost?",
+        "Pricing for Virtual Assistants",
+        "Cost of hiring a Virtual Assistant from Groww Virtual Agency",
+        "Fees for Virtual Assistants",
+        "How much do Groww Virtual Agency VAs charge?",
+        "Rates for Virtual Assistants",
+        "What is the price for hiring a VA?",
+        "Expenses for Virtual Assistants",
+        "What are the charges for a Virtual Assistant?",
+        "va_cost",
+        "va cost",
+        "What are the costs associated with hiring a VA?",
+        "What are the costs associated with hiring a Virtual Assistant?"
+      ],
+      "responses": [
+        "The cost of hiring a VA depends on the scope of work, required skills, and the number of hours needed per week. We offer flexible pricing plans to meet different business needs and budgets."
+      ]
+    },
+    {
+      "tag": "short_term_va",
+      "patterns": [
+        "Can I hire a Virtual Assistant on a short-term basis?",
+        "Short-term VA hire",
+        "Temporary VA services",
+        "Can I get a VA for a short period?",
+        "Hiring a VA temporarily",
+        "Short-duration Virtual Assistant services",
+        "Can I employ a VA for a short term?",
+        "Is short-term VA hire possible?",
+        "Temporary hiring of a Virtual Assistant",
+        "Short-term contracts for Virtual Assistants",
+        "short_term_va",
+        "short term va",
+        "Can I hire a VA on a short-term basis?",
+        "Can I hire a Virtual Assistant on a short-term basis?"
+      ],
+      "responses": [
+        "Yes, we offer flexible arrangements, including short-term and project-based contracts, as well as long-term engagements."
+      ]
+    },
+    {
+      "tag": "unsatisfied_va",
+      "patterns": [
+        "What if I am not satisfied with my Virtual Assistant?",
+        "What happens if I don't like my VA?",
+        "Handling issues with my VA",
+        "What to do if I'm unhappy with my VA?",
+        "Steps to take if VA is unsatisfactory",
+        "What if my VA isn't meeting expectations?",
+        "How to address problems with my VA?",
+        "Resolving issues with Groww Virtual Agency VAs",
+        "What if my VA isn't performing well?",
+        "What if I'm not happy with my Virtual Assistant?",
+        "unsatisfied_va",
+        "unsatisfied va",
+        "What if I am not satisfied with my VA?",
+        "What if I am not satisfied with my Virtual Assistant?"
+      ],
+      "responses": [
+        "Your satisfaction is our priority. If you are not satisfied with your VA, we will work with you to address any issues or provide a replacement if necessary."
+      ]
+    },
+    {
+      "tag": "data_security",
+      "patterns": [
+        "How do you ensure data security and confidentiality?",
+        "Data security with Virtual Assistants",
+        "Confidentiality policies for VAs",
+        "How is my data protected?",
+        "Ensuring confidentiality with VAs",
+        "Data protection measures for VAs",
+        "How do VAs keep data secure?",
+        "Privacy policies for Virtual Assistants",
+        "Security protocols for VAs",
+        "How is my information kept confidential?",
+        "data_security",
+        "data security",
+        "How do you ensure data security with VAs?",
+        "How do you ensure data security with Virtual Assistants?"
+      ],
+      "responses": [
+        "We take data security and confidentiality very seriously. All our VAs sign non-disclosure agreements (NDAs), and we use secure communication and data storage systems to protect your information."
+      ]
+    },
+    {
+      "tag": "different_time_zones",
+      "patterns": [
+        "Can Virtual Assistants work in different time zones?",
+        "Do your VAs accommodate different time zones?",
+        "Time zone flexibility for VAs",
+        "Can VAs work across time zones?",
+        "Are your VAs available in different time zones?",
+        "VAs working in various time zones",
+        "How do VAs manage different time zones?",
+        "Time zone adaptability of VAs",
+        "Can VAs adjust to my time zone?",
+        "Working with VAs in different time zones",
+        "different_time_zones",
+        "different time zones",
+        "Can VAs work in different time zones?",
+        "Can Virtual Assistants work in different time zones?"
+      ],
+      "responses": [
+        "Yes, our VAs can work in various time zones to accommodate your business hours and ensure seamless collaboration."
+      ]
+    },
+    {
+      "tag": "tools_software",
+      "patterns": [
+        "What tools and software do your Virtual Assistants use?",
+        "Tools used by Groww Virtual Agency VAs",
+        "Software proficiency of VAs",
+        "What software do VAs work with?",
+        "Tools and software for VAs",
+        "VAs' software skills",
+        "Which tools do your VAs know?",
+        "Software expertise of VAs",
+        "Tools and applications used by VAs",
+        "VAs' knowledge of tools and software",
+        "tools_software",
+        "tools software",
+        "What tools and software do your VAs use?",
+        "What tools and software do your Virtual Assistants use?"
+      ],
+      "responses": [
+        "Our VAs are proficient in using a wide range of tools and software, including Microsoft Office, Google Workspace, project management tools like Asana and Trello, CRM systems, and various communication platforms."
+      ]
+    },
+    {
+      "tag": "get_started_va_services",
+      "patterns": [
+        "How do I get started with your Virtual Assistant services?",
+        "Steps to start with Groww Virtual Agency",
+        "How to begin with VA services?",
+        "Starting with Groww Virtual Agency VAs",
+        "How to initiate VA services?",
+        "Getting started with VAs from Groww Virtual Agency",
+        "How can I start with VA services?",
+        "First steps to hire a VA from Groww Virtual Agency",
+        "Procedure to start with VA services",
+        "How to get VA services from Groww Virtual Agency?",
+        "get_started_va_services",
+        "get started va services",
+        "How do I get started with your VA services?",
+        "How do I get started with your Virtual Assistant services?"
+      ],
+      "responses": [
+        "To get started, simply contact us through our website or give us a call. We will schedule a consultation to understand your needs and match you with the right VA."
+      ]
     }
-    
   ]
 }

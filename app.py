@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template, send_from_directory
 import random
 import json
 import pickle
@@ -11,7 +11,7 @@ import sys
 import os
 import urllib.parse
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static')
 
 # Set UTF-8 encoding for stdout
 sys.stdout.reconfigure(encoding='utf-8')
@@ -63,22 +63,13 @@ def predict_class(sentence, model):
 def get_response(ints, intents_json):
     if ints:
         tag = classes[ints[0][0]]
-        logger.debug(f"Predicted tag: {tag}")
         for i in intents_json['intents']:
             if i['tag'] == tag:
                 return random.choice(i['responses'])
     
-    # Fallback message with options
-    fallback_message = "I'm not sure I understood. Maybe one of these topics can help you"
-    exclude_tags = ["goodbye", "thank_you", "greeting"]
-    options = [intent['tag'] for intent in intents_json['intents'] if intent['tag'] not in exclude_tags]
-    formatted_options = '<br>'.join([f'<a href="#" onclick="sendMessageTag(\'{urllib.parse.quote(option)}\')">{format_tag(option)}</a>' for option in options])
-    return f"{fallback_message}<br>{formatted_options}"
-
-def format_tag(tag):
-    return ' '.join(word.capitalize() for word in tag.split('_'))
-
-
+    # Fallback message with clickable options
+    fallback_message = "I'm not sure I understood. Maybe one of these topics can help you:<br><a href=\"#\" onclick=\"sendMessageTag('onboarding')\">Onboarding</a><br><a href=\"#\" onclick=\"sendMessageTag('faqs')\">FAQs</a><br><a href=\"#\" onclick=\"sendMessageTag('tools')\">Tools</a>"
+    return fallback_message
 
 @app.route("/")
 def home():

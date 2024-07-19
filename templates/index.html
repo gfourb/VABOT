@@ -3,24 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatbot</title>
+    <title>Chatbot Interface</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <div class="chat-container">
-        <div class="chatbox">
-            <div class="chatbox-header">
-                <strong>Chat support</strong>
-                <p>Hello! I am VAbot. I will be training you as a virtual assistant today. How can I help?</p>
-            </div>
-            <div class="chatbox-body" id="chatbox-body"></div>
-            <div class="chatbox-footer">
-                <input type="text" id="message" placeholder="Write a message..." onkeypress="checkEnter(event)">
-                <button onclick="sendMessage()">Send</button>
+    <div class="chat-container" id="chat-container">
+        <div class="chat-header">
+            Chat support
+        </div>
+        <div id="chatbox-body" class="chatbox-body">
+            <!-- Chat messages will appear here -->
+            <div class="message bot">
+                <p>Welcome! I'm GrowwBot, your virtual assistant. How can I assist you today?</p>
             </div>
         </div>
+        <div class="chat-input">
+            <input id="message" type="text" placeholder="Type a message..." onkeypress="checkEnter(event)">
+            <button onclick="sendMessage()">Send</button>
+        </div>
     </div>
+    <div id="chatbox-icon-container" onclick="toggleChatbox()">
+        <img src="https://png.pngtree.com/png-vector/20220611/ourmid/pngtree-chatbot-linear-icon-chat-bot-png-image_4841971.png" id="chatbox-icon" alt="Chatbox Icon">
+    </div>
+
     <script>
+        function toggleChatbox() {
+            var chatContainer = document.getElementById("chat-container");
+            if (chatContainer.style.display === "none" || chatContainer.style.display === "") {
+                chatContainer.style.display = "block";
+            } else {
+                chatContainer.style.display = "none";
+            }
+        }
+
+        function sendMessageTag(tag) {
+            var chatboxBody = document.getElementById("chatbox-body");
+            var userMessage = `<div class="message user"><p>${tag.replace(/_/g, ' ')}</p></div>`;
+            chatboxBody.innerHTML += userMessage;
+
+            fetch("/get_response", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                },
+                body: `message=${encodeURIComponent(tag)}`
+            })
+            .then(response => response.json())
+            .then(data => {
+                var botMessage = `<div class="message bot"><p>${formatResponse(data.response)}</p></div>`;
+                chatboxBody.innerHTML += botMessage;
+                document.getElementById("message").value = "";
+                chatboxBody.scrollTop = chatboxBody.scrollHeight;
+            })
+            .catch(error => {
+                console.error("Error:", error);
+            });
+        }
+
         function sendMessage() {
             var message = document.getElementById("message").value;
             if (message.trim() === "") return;
@@ -52,14 +91,17 @@
 
             const urlMappings = {
                 "https://workspace.google.com/intl/en_ph/training/": "Google Workspace Learning Center",
-                "https://www.canva.com/learn/how-to-canva-beginners-guide/": "Canva guide",
-                "https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide": "Slack guide",
-                "https://www.salesforce.com/solutions/small-business-solutions/workshops/": "Salesforce workshops",
-                "https://www.notion.so/guides": "Notion guide",
+                "https://www.canva.com/learn/how-to-canva-beginners-guide/": "Canva Guide",
+                "https://slack.com/help/articles/360059928654-How-to-use-Slack--your-quick-start-guide": "Slack Guide",
+                "https://www.salesforce.com/solutions/small-business-solutions/workshops/": "Salesforce Workshops",
+                "https://www.notion.so/guides": "Notion Guide",
                 "https://academy.hubspot.com/": "HubSpot Academy",
                 "https://support.microsoft.com/teams": "Microsoft Teams Help",
                 "https://support.zoom.us/hc/en-us": "Zoom Help Center",
-                "https://trello.com/guide": "Trello guide"
+                "https://trello.com/guide": "Trello Guide",
+                "https://learn.runwayml.com/": "Runwayml Guide",
+                "https://help.followupboss.com/": "Follow Up Boss Guide",
+                "https://support.hubstaff.com/": "Hubstaff Guide"
             };
 
             for (const [url, text] of Object.entries(urlMappings)) {
@@ -73,12 +115,6 @@
             if (event.key === "Enter") {
                 sendMessage();
             }
-        }
-
-        function sendMessageTag(tag) {
-            console.log("Sending tag:", tag);  // Debugging log
-            document.getElementById("message").value = tag.replace(/_/g, ' ');
-            sendMessage();
         }
     </script>
 </body>
