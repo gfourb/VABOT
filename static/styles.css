@@ -24,7 +24,7 @@ body {
 }
 
 .chat-header {
-    background-color: #6A1B9A;
+    background-color: #4caf50;
     color: white;
     padding: 15px;
     text-align: center;
@@ -50,7 +50,7 @@ body {
 }
 
 .bot {
-    background-color: #e1f5fe;
+    background-color: #b3e4bb;
     text-align: left;
 }
 
